@@ -1,0 +1,146 @@
+/* Title */
+#title {
+  background-color: #ff4c68;
+  background-size: 20%;
+}
+
+body {
+  font-family: 'Padauk', 'Montserrat-Black', sans-serif;
+}
+
+h1 {
+  font-family: 'Padauk-Bold', 'Montserrat-Black', sans-serif;
+  color: white;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bolder;
+}
+/* Navbar */
+.navigation {
+  margin-right: 20px;
+}
+
+h2 {
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: white;
+}
+/* Container for grid system for 1st part */
+.container-fluid {
+  padding: 3% 12% 5%;
+}
+/* 2nd part */
+.boom {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.boom:hover {
+  color: #ff4c68;
+}
+/* 2nd part-formatting the text */
+.feature-box {
+  font-family: 'Montserrat-Bold', sans-serif;
+  padding: 5%;
+  text-align: center;
+}
+
+h3 {
+  font-family: "Montserrat-Black";
+  font-weight: bolder;
+}
+/* Feature part */
+#features {
+  padding: 8% 5%;
+  background-color: white;
+  position: relative;
+}
+
+p {
+  color: #8f8f8f;
+  font-family: 'Montserrat';
+}
+
+/* Testimonial */
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+/* Sponsor logos */
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  margin-bottom: 10px;
+  padding-bottom: 3%;
+}
+
+.press-image {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+/* Carousel photos */
+.carousel-item {
+  padding: 7% 15%;
+}
+/* Iphone-photo */
+.title-image {
+  padding-top: 5%;
+  width: 20%;
+  transform: rotate(15deg);
+  position: absolute;
+}
+/* Pricing section */
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+/* Media query */
+@media screen and (max-width:992px) {
+  .title-image {
+    position: static;
+    transform: rotate(0);
+    width: 40%;
+  }
+
+  #title {
+    text-align: center;
+  }
+
+  .sent {
+    text-align: center;
+  }
+}
+/* cta part */
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  color: white;
+  font-family: 'Montserrat-Black';
+  padding: 13%;
+}
+/* Download section buttons */
+.spaces {
+  margin-right: 15px;
+}
+/* footer-section */
+#footer {
+  background-color: white;
+  text-align: center;
+  padding: 7%;
+  margin: 3%;
+}
+/* Font-awesome-icons */
+#footer .icon {
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
